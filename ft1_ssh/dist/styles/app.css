@@ -1,0 +1,231 @@
+/*# sourceMappingURL=app.css.map */
+
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding:0 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerRight {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.borderRight {
+    border-right: 1px solid #E5DBDB;
+    padding-right: 30px;
+    height: 30px;
+}
+
+#cliquable :hover {
+    color: #3C8E9A;
+}
+
+#header div.a {
+    align-items: center;
+}
+
+#iconMessage {
+    align-items: center;
+}
+
+#faq {
+    padding-left: 5px;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+#barreProgression {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #E1D9FF;
+    border-radius: 50%;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6840F8;
+}
+.menuHorizontal ul {
+    width: 150px;
+    padding-left: 0;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+/*******************Menu gauche*******************/
+
+#menuVertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 61px;
+    background-color: #31486A;
+    width: 64px;
+    height: 100%;
+}
+
+#profil {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.mainMenuVertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tailleIcon {
+    height: 40px;
+}
+
+.iconGauche {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.tailleIcon img {
+    width: 16px;
+}
+
+/********Hero**********/
+
+#hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#navBar div {
+    width: 275px;
+}
+
+#navBar a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navBar span {
+    display: flex;
+    justify-content: center;
+    color: #5EBAC8;
+    font-size: 15px;
+
+}
+
+#navBar div:hover {
+    border-bottom: 1px solid #5EBAC8;
+}
+
+.container {
+    margin-top: 94px;
+    display: flex;
+    width: 1100px;
+    flex-direction: column;
+}
+
+#cheminRelatif {
+    width: 100%;
+    height: 30px;
+    background-color: #5EBAC8;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#titreHero {
+    width: 695px;
+}
+
+#titreHero >h3 {
+    color: #5EBAC8;
+    text-transform: uppercase;
+}
+
+#titreHero p span {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.contenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nbEvent {
+    width: 635px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nbExercices {
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blockImage {
+    height: 104.06px;
+}
+
+.imageExercice {
+    width: 205px;
+}
+
+.titreDefi {
+    height: 38px;
+    background-color: #ED704C;
+}
+
+.titreExercice {
+    height: 38px;
+    background-color: #7CC170;
+}
+
+.exercice a {
+    text-decoration: none;
+}
+
+.exercice h3 {
+    margin-top: 0;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 8px 0 8px 10px;
+}
